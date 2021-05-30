@@ -1,3 +1,42 @@
 <resources>
-    <string name="app_name">ListViewAdvApp</string>
+    <string name="appName">School Subjects</string>
+
+    <string name="englishTxt">English and language arts are two of the most basic and widely taught subjects in
+        United States schools. The American National Council of Teachers of English separates English and language
+        arts into five basic categories: reading, writing, speaking, listening and viewing.</string>
+
+    <string name="mathsTxt">Mathematics is a fundamental part of human thought and logic, and integral to attempts at
+        understanding the world and ourselves. Mathematics provides an effective way of building mental discipline and
+        encourages logical reasoning and mental rigor. In addition, mathematical knowledge plays a crucial role in
+        understanding the contents of other school subjects such as science, social studies, and even music and art.</string>
+
+    <string name="chemistryTxt">Chemistry, the science that deals with the properties, composition, and structure of substances
+        (defined as elements and compounds), the transformations they undergo, and the energy that is released or absorbed
+        during these processes.</string>
+
+    <string name="biologyTxt">Biology is the study of life and living organisms. General biology courses encompass many
+        aspects of the science, such as ecology, genetics, paleontology, physiology and zoology. ... Topics include cell
+        biology, human disease and genetics.</string>
+
+    <string name="physicsTxt">Physics is the study of the properties of matter and their relationship with energy and forces.
+        The study of physics can be divided into classical physics, relativity, and quantum mechanics. ... Classical physics
+        concerns everyday sizes and velocities.</string>
+
+    <string name="historyTxt">The Past Teaches Us About the Present
+        Because history gives us the tools to analyze and explain problems in the past, it positions us to see patterns that
+        might otherwise be invisible in the present – thus providing a crucial perspective for understanding (and solving!)
+        current and future problems.</string>
+
+    <string name="sociologyTxt">Sociology is a social science concerned with the study of society and human behaviour and
+        relationships. ... The subject matter is diverse and can cover anything from race, social class, crime and law, poverty,
+        education and more theoretical wider issues such as the impact of radical change to whole societies.</string>
+
+    <string name="scienceTxt">Science is a universal subject that spans the branch of knowledge that examines the structure
+        and behavior of the physical and natural world through observation and experiment. Science education is most commonly
+        broken down into the following three fields: Biology, Chemistry, and Physics.</string>
+
+    <string name="sportTxt">Playing sports teaches lessons of life, such as teamwork, accountability, self-confidence,
+        responsibility, and self-discipline. Sports in school help prepare students to face the challenges of life. They
+        enhance physical and mental abilities of students and help them achieve the goals of their life.</string>
+
 </resources>

@@ -17,15 +17,15 @@ import java.util.zip.Inflater;
 
 public class MyListAdapter extends ArrayAdapter<String> {
     private final Activity context;
-    private final String[] progNames;
-    private final Integer[] progImages;
+    private final String[] subjectNames;
+    private final Integer[] subjectImages;
 
-    public MyListAdapter(Activity context,String[] progNames,Integer[] progImages)
+    public MyListAdapter(Activity context,String[] subjectNames,Integer[] subjectImages)
     {
-        super(context, R.layout.activity_image_list, progNames);
+        super(context, R.layout.activity_image_list, subjectNames);
         this.context=context;
-        this.progNames=progNames;
-        this.progImages=progImages;
+        this.subjectNames=subjectNames;
+        this.subjectImages=subjectImages;
     }
 
     @NonNull
@@ -33,10 +33,10 @@ public class MyListAdapter extends ArrayAdapter<String> {
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
         LayoutInflater inflater=context.getLayoutInflater();
         View rowView= inflater.inflate(R.layout.activity_image_list,null,true);
-        TextView txtTitle =(TextView) rowView.findViewById(R.id.textView2);
-        ImageView ImageView=(ImageView) rowView.findViewById(R.id.imageView1);
-        txtTitle.setText(progNames[position]);
-        ImageView.setImageResource(progImages[position]);
+        TextView txtTitle = rowView.findViewById(R.id.textView2);
+        ImageView ImageView= rowView.findViewById(R.id.imageView1);
+        txtTitle.setText(subjectNames[position]);
+        ImageView.setImageResource(subjectImages[position]);
         return rowView;
 
 
